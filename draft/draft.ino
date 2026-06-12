@@ -1,8 +1,8 @@
 #include <WiFi.h>
 
 // WiFi set up
-const char* ssid = "Horus@HOME";
-const char* password = "dhzy1308";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // hall hodule set up
 const int digitalPin = 5;
