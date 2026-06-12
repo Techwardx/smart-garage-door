@@ -12,9 +12,8 @@ const char* ssid = "Horus@HOME";
 const char* password = "dhzy1308";
 
 // Telegram Bot Token and Chat ID
-#define BOT_TOKEN "8343027359:AAFxhpiXDij08O2-qfY6C7mgwKMbfmmZiCg"
-#define CHAT_ID "-5073194532"
-// #define CHAT_ID "8230113959"
+#define BOT_TOKEN "YOUR_TELEGRAM_BOT_TOKEN"
+#define CHAT_ID "YOUR_CHAT_ID"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
