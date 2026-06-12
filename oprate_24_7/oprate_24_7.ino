@@ -8,8 +8,8 @@
 #include <time.h>
 
 // WiFi credentials
-const char* ssid = "Horus@HOME";
-const char* password = "dhzy1308";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 // Telegram Bot Token and Chat ID
 #define BOT_TOKEN "YOUR_TELEGRAM_BOT_TOKEN"
