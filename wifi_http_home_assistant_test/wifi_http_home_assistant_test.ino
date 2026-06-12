@@ -3,8 +3,8 @@
 #include <ESPmDNS.h>
 
 // Replace with your network credentials
-const char* ssid = "Horus@HOME";
-const char* password = "dhzy1308";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // Device info for Google Home
 const char* deviceName = "ESP32-Sensor";
