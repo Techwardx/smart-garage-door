@@ -1,7 +1,3 @@
-// bot token: 8343027359:AAFxhpiXDij08O2-qfY6C7mgwKMbfmmZiCg
-// my own chat ID: 8230113959
-// group chat ID: -1003519840912
-// https://api.telegram.org/bot8343027359:AAFxhpiXDij08O2-qfY6C7mgwKMbfmmZiCg/sendMessage?chat_id=-1003519840912&text=测试静默&disable_notification=true
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
@@ -12,12 +8,12 @@
 // #include "soc/rtc_cntl_reg.h"
 
 // WiFi credentials
-const char* ssid = "Horus@HOME";
-const char* password = "dhzy1308";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // Telegram Bot Token and Chat ID
-#define BOT_TOKEN "8343027359:AAFxhpiXDij08O2-qfY6C7mgwKMbfmmZiCg"
-#define CHAT_ID "-1003519840912"
+#define BOT_TOKEN "BOT_TOKEN"
+#define CHAT_ID "CHAT_ID"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOT_TOKEN, client);
