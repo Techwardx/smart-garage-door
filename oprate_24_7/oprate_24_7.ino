@@ -1,6 +1,3 @@
-// bot token: 8343027359:AAFxhpiXDij08O2-qfY6C7mgwKMbfmmZiCg
-// my own chat ID: 8230113959
-// group chat ID: -5073194532
 
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
